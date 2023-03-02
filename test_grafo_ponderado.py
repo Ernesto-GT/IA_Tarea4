@@ -41,7 +41,6 @@ def testGrafo():
     print('\nComprobaciones')
     print('Vacío:', g.isEmpty())                    # Comprobar si grafo vacío
     
-    
         
      # Obtener el camino más corto entre dos nodos
     tiempo_inicio = tiempo.time()
