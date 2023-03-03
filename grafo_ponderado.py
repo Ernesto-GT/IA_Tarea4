@@ -22,7 +22,7 @@ class WeightedGraph(GR.Graph):
             if current not in visited:
                 visited.append(current)
                 x += _
-            if (current == '5'):
+            if (current == '10'):
                 break
             for e, _ in self.graph[current]:    # para cada nodo adyacente
                 if e not in visited:
